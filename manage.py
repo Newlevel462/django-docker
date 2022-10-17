@@ -2,7 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import sqlite3
 
+print(sqlite3.sqlite_version)
 
 # django-docker % docker run --publish 8000:8000 python-django
 
