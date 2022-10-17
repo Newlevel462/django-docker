@@ -6,6 +6,7 @@ import sqlite3
 
 print(sqlite3.sqlite_version)
 
+
 # django-docker % docker run --publish 8000:8000 python-django
 
 def main():
